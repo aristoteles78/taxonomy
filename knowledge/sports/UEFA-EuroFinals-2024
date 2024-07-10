@@ -1,0 +1,34 @@
+version: 1
+task_description: 'Teach the model the details of the UEFA Euro 2024 Championship held in Germany'
+created_by: aristoteles78
+seed_examples:
+ - question: When will the UEFA Euro 2024 Championship start?
+   answer: |
+     The UEFA Euro 2024 Championship will start on June 14, 2024.
+ - question: How many teams are participating in UEFA Euro 2024?
+   answer: |
+     A total of 24 teams are participating in UEFA Euro 2024.
+ - question: Which city will host the final match of UEFA Euro 2024?
+   answer: |
+     The final match of UEFA Euro 2024 will be hosted in Berlin at the Olympiastadion.
+ - question: Who was selected as the host country for UEFA Euro 2024?
+   answer: |
+     Germany was selected as the host country for UEFA Euro 2024.
+ - question: What are the names of the stadiums that will be used for UEFA Euro 2024 matches?
+   answer: |
+     The stadiums that will be used for UEFA Euro 2024 matches are:
+     - Berlin - Olympiastadion
+     - Munich - Allianz Arena
+     - Dortmund - Signal Iduna Park
+     - Stuttgart - Mercedes-Benz Arena
+     - Hamburg - Volksparkstadion
+     - Leipzig - Red Bull Arena
+     - Cologne - RheinEnergieStadion
+     - Düsseldorf - Merkur Spiel-Arena
+     - Gelsenkirchen - Veltins-Arena
+     - Frankfurt - Deutsche Bank Park
+document:
+ repo: https://github.com/aristoteles78/taxonomy.git
+ commit: your_commit_hash
+ patterns:
+   - uefa_euro_2024_results.md
