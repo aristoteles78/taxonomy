@@ -29,6 +29,6 @@ seed_examples:
      - Frankfurt - Deutsche Bank Park
 document:
  repo: https://github.com/aristoteles78/taxonomy.git
- commit: your_commit_hash
+ commit: 911f3bf
  patterns:
    - uefa_euro_2024_results.md
